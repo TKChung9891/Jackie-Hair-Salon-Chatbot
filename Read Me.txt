@@ -1,0 +1,57 @@
+Jackie Hair Salon Code Package Read Me file
+
+(A) Contents
+
+This Code Package contains 5 files:
+1. Read Me
+2. JackieHairSalon FINAL: Dialogflow zip file for frontend deployment
+3. Jackie Hair Salon Fulfillment v15 Sanitised: Dialogflow Backend Fulfillment Code
+4. Package JSON for Deployment: Package JSON file
+5. Hair Salon FAQ csv file: For Dialogflow knowledge base
+6. Jackie Hair Salon Presentation slides
+
+(B) Configuration
+
+Fulfillment code need configuration for deployment:
+
+1. Email 
+
+Two emails needed. One Gmail account for chatbot to send out emails.
+This Gmail account should be set to 'less secure' & password inserted into Dialogflow fulfillment code
+
+Second email just need email address. For receiving shampoo order on behalf of hair salon (optional)
+
+2. Google Calendar
+
+Steps:
+a. Locate Dialogflow projec at Google Cloud Console
+b. Enable Google Calendar API 
+c. Download service account in JSON of the enabled API
+d. Insert JSON service account into fulfillment code
+e. Set up a Google Calendar used for the project
+f. Enable sharing on Google Calendar & insert service account email address
+g. Copy Calendar ID from Google Calendar & insert into fulfillment code
+
+Detailed tutorial webpage:
+https://medium.com/google-cloud/deconstructing-chatbots-understanding-fulfillment-by-integrating-dialogflow-with-google-calendar-dde40a3856ff
+
+
+3. Firestore
+
+Set up & configure Google Cloud Firestore database for Shampoo Order and Feedback databases
+
+Youtube tutorial:
+https://youtu.be/KXS0_fYRwu0
+ 
+
+(C) Demo 
+
+Jackie Hair Salon demo video:
+https://youtu.be/Iikz7zNZo6k
+
+Link to Jackie Hair Salon website & chatbot:
+https://sites.google.com/view/jackie-hair-salon
+
+Telegram Link:
+http://t.me/JackieHairSalonBot
+
